@@ -1,0 +1,27 @@
+{
+  "name": "rmsf_server",
+  "version": "1.0.0",
+  "description": "Server to run RMSF University Project",
+  "scripts": {
+    "start": "node --inspect=0.0.0.0:9229 ./bin",
+    "dev": "cross-env NODE_ENV=development nodemon "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/VascoAmaral9/RMSF_Project.git"
+  },
+  "author": "Vasco Amaral, José Velez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^2.0.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "fs-extra": "^7.0.1",
+    "mongoose": "^5.5.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
